@@ -1,2 +1,2 @@
 # Tarfish
->&lt;> but esoteric
+\>\<\> but esoteric
