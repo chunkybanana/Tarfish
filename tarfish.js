@@ -14,7 +14,7 @@ module.exports = function interpret(code, inputs){
                 case ';': running = false; break;
                 case 'x': stack.push(x); break;
                 case 'y': stack.push(y); break;
-                case '=': skipping = stack.pop() === stack.pop(), console.log(skipping,stack); break;
+                case '=': skipping = stack.pop() === stack.pop(); break;
                 case '+': stack.push(stack.pop()+1); break;
                 case '-': stack.push(stack.pop()-1); break;
                 case '{': stack.unshift(stack.pop()); break;
@@ -39,7 +39,7 @@ module.exports = function interpret(code, inputs){
             case 2: if(!codebox[y][--x]) x = codebox[y].length-1; break;
             case 3: if(!codebox[--y]) y = codebox.length - 1; break;
         }
-        console.log(x,y)
+        //console.log(x,y)
     }
     return output;
 }
