@@ -1,6 +1,6 @@
 {
   "name": "tarfish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\\><>, but it's a tarpit",
   "main": "tarfish.js",
   "scripts": {
