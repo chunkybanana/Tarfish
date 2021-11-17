@@ -1,8 +1,9 @@
 Tarfish is a 2D esoteric programming language and Turing tarpit.
 
 It has a few commands:
-|Command | action |
-| ` ` | NOP |
+|Command | Action |
+|--------|--------|
+| <code>&nbsp;</code> | NOP |
 | `>` | point right |
 | `<` | point left |
 | `^` | point up |

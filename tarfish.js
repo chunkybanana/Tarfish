@@ -37,9 +37,9 @@ module.exports = function interpret(code, inputs){
             case 0: if(!codebox[y][++x]) x = 0; break;
             case 1: if(!codebox[++y]) y = 0; break;
             case 2: if(!codebox[y][--x]) x = codebox[y].length-1; break;
-            case 3: if(!codebox[y][--x]) x = codebox[y].length-1; break;
+            case 3: if(!codebox[--y]) y = codebox.length - 1; break;
         }
-        //console.log(stack)
+        //console.log(x,y)
     }
     return output;
 }
