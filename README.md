@@ -1,5 +1,5 @@
 # Tarfish
-\>&lt;> but it's even more of a tarpit.
+\>\<\> but it's even more of a tarpit.
 
 See the docs for more info.
 
