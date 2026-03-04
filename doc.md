@@ -16,6 +16,7 @@ It has a few commands:
 | `-` | Decrement the top of the stack |
 | `{` | Shift the stack one unit to the right |
 | `}` | Shift the stack one unit to the left |
+| `:` | Duplicate the top of the stack |
 | `.` | Output the top of stack as a character |
 | `,` | Output the top of stack as a number |
 | `?` | Take input - Lop the first character off if it's a string, pop entirely if it's a number |
